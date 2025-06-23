@@ -152,8 +152,8 @@ RUN python3 -m pip install --break-system-packages --no-cache-dir /tmp/minimega
 
 # Allow installing from a fork of sceptre-phenix-apps that could
 # exist on GitHub or elsewhere.
-ARG APPS_REPO=github.com/sandialabs/sceptre-phenix-apps
-ARG APPS_BRANCH=main
+ARG APPS_REPO=github.com/htoohey22/sceptre-phenix-apps
+ARG APPS_BRANCH=kafka
 
 # Install phenix user apps
 RUN python3 -m pip install --break-system-packages --ignore-installed --no-cache-dir \
